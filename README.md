@@ -10,8 +10,14 @@ While visualizing the data, "bar chart" charting method was selecting. Also for 
 
 Lastly, for making an evaluation about the medals numbers, the yearly average medals numbers were added the chart as a line. Because of the participant numbers (countries) are changing nearly every Olympics year, the average medals numbers are also changing every year. So, a new dataset was created from 28 different Wikipedia URLs by scraping. And calculating the average number for every Olympics year and adding the chart.
 
-As a result;
+### As a result;
 - Except 2 Olympics years, Netherlands won more medals than Turkey.
 - Except for 1 Olympics year, Turkey couldn't win more medals than the overall average.
 - More than half of the Olympics years, Netherlands also couldn't win more medals than the overall average.
 - After 1980 both Netherland and Turkey are wining medals properly. Also, the Netherlands is winning medals above the overall average.
+
+## Used Libraries;
+- Pandas
+- Numpy
+- Matplotlib
+- BeautifulSoup
